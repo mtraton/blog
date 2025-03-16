@@ -5,7 +5,7 @@ What are parts of hexagonal architecture?
     - interactors
 - external
    - data sources (adapters) - implement repository interfaces
-   - transport layer - input to system that triggers interactor (e.g REST controllers, cron jobs, CLI. events)
+   - transport layer (ports) - input to system that triggers interactor (e.g REST controllers, cron jobs, CLI. events)
 
 What are entities?
 - Domain objects
